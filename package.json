@@ -6,7 +6,7 @@
     "start": "mdx-deck deck.mdx",
     "clean": "rm -rf dist public",
     "static": "mkdir -p dist/assets && cp -R assets dist",
-    "copy-to-public": "mkdir public && cp -R dist public",
+    "copy-to-public": "mkdir public && cp -R dist/* public",
     "build": "npm run clean && npm run static && mdx-deck build deck.mdx && npm run copy-to-public",
     "pdf": "mdx-deck pdf deck.mdx",
     "image": "mdx-deck screenshot deck.mdx",
