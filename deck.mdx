@@ -1,0 +1,198 @@
+import { Head, Image, Appear } from 'mdx-deck';
+import { Split, Invert } from 'mdx-deck/layouts';
+export { default as theme } from './theme.js';
+
+<Head>
+  <title>GraphQL Tooling</title>
+</Head>
+
+export default Invert;
+
+# GraphQL Tooling
+
+### Jake Dawkins
+
+---
+
+export default Split;
+
+<img src="./assets/headshot.png" style={{ width: '50%' }} />
+
+## Who Am I
+
+- Open Source Engineer
+- Working on tooling
+- Education and accessibility
+
+---
+
+export default ({ children }) => (
+  <div
+    style={{
+      width: '100vw',
+      height: '100vh',
+      backgroundColor: '#00aced',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      color: 'white',
+    }}
+  >
+    {children}
+  </div>
+);
+
+<h1>@JakeDawkins</h1>
+
+---
+
+## What I'm Talking About
+
+- The promise of GraphQL
+- The state of GraphQL tooling
+- A modern tooling setup
+- Where we're going
+
+---
+
+export default Invert;
+
+# The Promise of GraphQL
+
+---
+
+## The promise of GraphQL
+
+> A GraphQL server can be queried for the types it supports. This creates a powerful platform for tools and client software to build atop this information...
+
+```notes
+GraphQL was designed with the intent to leverage its schema
+```
+
+---
+
+export default Invert;
+
+# Schema Awareness
+
+---
+
+## Schema Awareness Enables...
+
+- Code generation
+- Editor improvements
+
+---
+
+export default Invert;
+
+# Schema Registries
+
+---
+
+## Registries Enable...
+
+- Advanced usage metrics
+- Schema change validation
+- Operation safelisting
+- And much more
+
+---
+
+export default Invert;
+
+# The state of GraphQL tooling
+
+---
+
+> The tooling ecosystem around GraphQL is powerful, capable, but disconnected and not complete.
+
+---
+
+## Code Generators
+
+- Apollo Codegen (Apollo CLI)
+- GraphQL Code Generator
+
+---
+
+## Editor plug-ins (js)
+
+- Apollo GraphQL
+- Graphql
+
+---
+
+## Introspection/Runtime Tooling
+
+- GraphiQL/GraphQL Playground
+- Apollo Client Devtools
+- GraphQL Voyager
+
+---
+
+> Toolsets are best when they can be configured in unison and work with one another
+
+---
+
+## Configuring GraphQL tools
+
+- Where does the reference schema info come from?
+- Where do queries and type definitions come from?
+- Handling multiple projects, including ones that share schemas or operations
+- Platform-specific concerns (Registry endpoints, API keys, reporting URLs)
+
+---
+
+export default Split;
+
+<div>
+  <h2> graphql-config</h2>
+  <p>graphql-code-generator</p>
+  <p>vscode-graphql</p>
+  <p>atom-language-graphql</p>
+</div>
+
+<div>
+  <h2>Apollo Config</h2>
+  <p>Apollo CLI</p>
+  <p>vscode-apollo</p>
+</div>
+
+---
+
+export default Invert;
+
+# A modern tooling setup
+
+---
+
+## A modern tooling setup...
+
+- Tracks schemas in a registry
+- Checks service schema changes against traffic
+- Safelists permitted operations in production
+- Generates types for client operations
+- Checks client operation changes against the schema
+
+---
+
+export default Invert;
+
+# Where we're going
+
+---
+
+## Where we're going
+
+- Generating new projects from the CLI
+- Schema explorer link to schema registry
+- Ability to save operations and generate hooks and types
+
+---
+
+export default Invert;
+
+# Thank You!
+
+<h3><pre>@JakeDawkins</pre></h3>
