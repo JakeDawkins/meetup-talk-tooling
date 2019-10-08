@@ -1,5 +1,4 @@
-
-# GraphQL Summit 2018 - Testing
+# Meetup talk - GraphQL Tooling
 
 This was generated with [mdx-deck][]'s `npm init deck` command.
 
